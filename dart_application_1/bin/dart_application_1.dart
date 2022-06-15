@@ -1,8 +1,7 @@
 int password = 1004553;
-var username = "shathhha";
-
+String username = "shathhha";
+double decimel = 3.3;
 Map student = {"name": "Shatha", "name1": "d", "age": 120};
-
 List students = [
   {
     "name": "Shatha",
@@ -19,8 +18,8 @@ List students = [
   "shatha"
 ];
 
-// حددت ان اللي بداخل الليست فقط يقبل ماب 
-List<Map>studentshustmaotype = [
+// حددت ان اللي بداخل الليست فقط يقبل ماب
+List<Map> studentshustmaotype = [
   {
     "name": "Shatha",
     "age": "90",
@@ -34,8 +33,8 @@ List<Map>studentshustmaotype = [
     "Lang": ["Javascript", "Html"]
   }
 ];
-// حددت ان اللي بداخل الماب الكي لازم يكون سترينغ و الفاليو عادي متغير 
-List<Map<String,dynamic>>studentshustmaotypeinsidetype = [
+// حددت ان اللي بداخل الماب الكي لازم يكون سترينغ و الفاليو عادي متغير
+List<Map<String, dynamic>> studentshustmaotypeinsidetype = [
   {
     "name": "Shatha",
     "age": "90",
@@ -51,7 +50,7 @@ List<Map<String,dynamic>>studentshustmaotypeinsidetype = [
 ];
 
 // incase the server sen null to need to be ready
-List <Map?> studentsnullsafty = [
+List<Map?> studentsnullsafty = [
   {
     "name": "Shatha",
     "age": null,
@@ -64,7 +63,6 @@ List <Map?> studentsnullsafty = [
     "id": "12",
     "Lang": ["Javascript", "Html"]
   },
-  
 ];
 
 main() {
@@ -72,4 +70,4 @@ main() {
   print(students[1]["Lang"][0]);
   // print(student.runtimeType);
 }
-// 
+//
