@@ -2,7 +2,7 @@
 import 'dart:io';
 
 int? mark;
-//  int mark = int.parse(stdin.readLineSync()!); I can use it Gloabely
+//  int mark = int.parse(stdin.readLineSync()!); I can use it global
 void main(List<String> arguments) {
   print("Enter your mark");
   mark = int.parse(stdin.readLineSync()!); // Local
@@ -25,7 +25,7 @@ void main(List<String> arguments) {
     print("D+");
   } else if (mark! == 64 || mark! >= 60) {
     print("D");
-  } else {
+  } else { 
     print("F");
   }
 
